@@ -2,7 +2,8 @@
 // @ts-expect-error: Unused variable
 import React from "react";
 import { Link, Outlet, createRootRoute } from "@tanstack/react-router";
-import { Home as HomeIcon, Info as InfoIcon } from "@mui/icons-material";
+import { Home as HomeIcon } from "@mui/icons-material";
+import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
 import { useTheme } from "@mui/material";
 
 const baseLinkStyles = "flex items-center space-x-2 hover:transition font-bold";
@@ -41,20 +42,8 @@ export const Route = createRootRoute({
               transition: "color 0.3s",
             }}
           >
-            <InfoIcon fontSize="small" />
-            <span>Contest</span>
-          </Link>
-          <Link
-            to="/about"
-            activeProps={{}}
-            className={baseLinkStyles}
-            style={{
-              color: theme.palette.primary.contrastText,
-              transition: "color 0.3s",
-            }}
-          >
-            <InfoIcon fontSize="small" />
-            <span>About</span>
+            <PhotoCameraIcon fontSize="small" />
+            <span>Archive</span>
           </Link>
         </nav>
         <Outlet />

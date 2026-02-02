@@ -12,7 +12,6 @@
 
 import { Route as rootRoute } from './routes/__root'
 import { Route as ContestImport } from './routes/contest'
-import { Route as AboutImport } from './routes/about'
 import { Route as IndexImport } from './routes/index'
 import { Route as ContestIndexImport } from './routes/contest.index'
 import { Route as ContestWeekIdImport } from './routes/contest.$weekId'
@@ -22,12 +21,6 @@ import { Route as ContestWeekIdImport } from './routes/contest.$weekId'
 const ContestRoute = ContestImport.update({
   id: '/contest',
   path: '/contest',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const AboutRoute = AboutImport.update({
-  id: '/about',
-  path: '/about',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -58,13 +51,6 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutImport
       parentRoute: typeof rootRoute
     }
     '/contest': {
@@ -108,7 +94,6 @@ const ContestRouteWithChildren =
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/contest': typeof ContestRouteWithChildren
   '/contest/$weekId': typeof ContestWeekIdRoute
   '/contest/': typeof ContestIndexRoute
@@ -116,7 +101,6 @@ export interface FileRoutesByFullPath {
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/contest/$weekId': typeof ContestWeekIdRoute
   '/contest': typeof ContestIndexRoute
 }
@@ -124,7 +108,6 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/contest': typeof ContestRouteWithChildren
   '/contest/$weekId': typeof ContestWeekIdRoute
   '/contest/': typeof ContestIndexRoute
@@ -132,28 +115,20 @@ export interface FileRoutesById {
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/contest' | '/contest/$weekId' | '/contest/'
+  fullPaths: '/' | '/contest' | '/contest/$weekId' | '/contest/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/contest/$weekId' | '/contest'
-  id:
-    | '__root__'
-    | '/'
-    | '/about'
-    | '/contest'
-    | '/contest/$weekId'
-    | '/contest/'
+  to: '/' | '/contest/$weekId' | '/contest'
+  id: '__root__' | '/' | '/contest' | '/contest/$weekId' | '/contest/'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AboutRoute: typeof AboutRoute
   ContestRoute: typeof ContestRouteWithChildren
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AboutRoute: AboutRoute,
   ContestRoute: ContestRouteWithChildren,
 }
 
@@ -170,15 +145,11 @@ export const routeTree = rootRoute
       "filePath": "__root.tsx",
       "children": [
         "/",
-        "/about",
         "/contest"
       ]
     },
     "/": {
       "filePath": "index.tsx"
-    },
-    "/about": {
-      "filePath": "about.tsx"
     },
     "/contest": {
       "filePath": "contest.tsx",
