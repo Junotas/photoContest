@@ -36,7 +36,7 @@ function ContestWeekPage() {
         </div>
 
         <Link to="/contest" className="text-sm text-white/70 underline">
-          Archive
+          Back to Archive
         </Link>
       </div>
 
