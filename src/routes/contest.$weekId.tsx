@@ -41,22 +41,40 @@ function ContestWeekPage() {
       </div>
 
       {week.winner ? (
-        <div className="mt-6 overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-sm backdrop-blur">
-          <div className="px-6 py-4 text-sm text-white/80">
-            Winner: <span className="font-semibold">{week.winner.author}</span>
+        <div className="mt-6 rounded-2xl border border-amber-400/30 bg-amber-400/10 p-5 shadow-sm">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <div className="text-xs font-semibold uppercase tracking-wide text-amber-200">
+                Winner
+              </div>
+              <div className="text-lg font-semibold text-white/90">
+                {week.winner.author}
+              </div>
+            </div>
+
+            <a
+              href={withBase(week.winner.src)}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-xl bg-white/90 px-4 py-2 text-sm font-semibold text-slate-900 hover:bg-white"
+            >
+              Open winning photo
+            </a>
           </div>
-          <a href={withBase(week.winner.src)} target="_blank" rel="noreferrer">
+
+          <div className="mt-4 overflow-hidden rounded-xl border border-white/10 bg-white/5">
             <img
               src={withBase(week.winner.src)}
               alt={`Winner photo by ${week.winner.author}`}
+              loading="lazy"
               className="aspect-[16/9] w-full object-cover"
             />
-          </a>
+          </div>
         </div>
       ) : null}
 
       <div className="mt-8">
-        <GalleryGrid photos={week.photos} />
+        <GalleryGrid photos={week.photos} winnerSrc={week.winner?.src} />
       </div>
     </div>
   );

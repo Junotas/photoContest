@@ -24,8 +24,12 @@ export const weeks: WeekEntry[] = [
   {
     id: "2026-w03",
     label: "Week 3",
-    dateRange: "TBD",
-    theme: "TBD",
+    dateRange: "10th - 17th January 2026",
+    theme: "Theme: None",
+    winner: {
+      author: "DiscoHippie",
+      src: "photos/2026-w03/DiscoHippie.jpg",
+    },
     photos: [
       {
         src: "photos/2026-w03/Calix.png",
@@ -67,8 +71,12 @@ export const weeks: WeekEntry[] = [
   {
     id: "2026-w04",
     label: "Week 4",
-    dateRange: "TBD",
-    theme: "TBD",
+    dateRange: "17th - 24th January 2026",
+    theme: "Theme: None",
+    winner: {
+      author: "Travars",
+      src: "photos/2026-w04/Travars.jpg",
+    },
     photos: [
       {
         src: "photos/2026-w04/calix.png",
@@ -110,8 +118,8 @@ export const weeks: WeekEntry[] = [
   {
     id: "2026-w05",
     label: "Week 5",
-    dateRange: "TBD",
-    theme: "TBD",
+    dateRange: "24th - 31st January 2026",
+    theme: "Theme: None",
     photos: [
       {
         src: "photos/2026-w05/calix.png",
@@ -153,8 +161,8 @@ export const weeks: WeekEntry[] = [
   {
     id: "2026-w06",
     label: "Week 6",
-    dateRange: "TBD",
-    theme: "TBD",
+    dateRange: "31st January - 7th February 2026",
+    theme: "Theme: None",
     photos: [
       {
         src: "photos/2026-w06/aqualungXIV.jpg",
