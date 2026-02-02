@@ -34,6 +34,18 @@ export const Route = createRootRoute({
             <span>Home</span>
           </Link>
           <Link
+            to="/contest"
+            activeProps={{}}
+            className={baseLinkStyles}
+            style={{
+              color: theme.palette.primary.contrastText,
+              transition: "color 0.3s",
+            }}
+          >
+            <InfoIcon fontSize="small" />
+            <span>Contest</span>
+          </Link>
+          <Link
             to="/about"
             activeProps={{}}
             className={baseLinkStyles}
