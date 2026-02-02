@@ -16,47 +16,56 @@ function ContestPage() {
       </p>
 
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {weeks.map((w) => (
-          <Link
-            key={w.id}
-            to="/contest/$weekId"
-            params={{ weekId: w.id }}
-            className="rounded-2xl border border-white/10 bg-white/5 p-5 shadow-sm backdrop-blur hover:bg-white/10"
-          >
-            <div className="text-base font-semibold text-white/90">
-              {w.label}
-            </div>
-            <div className="mt-1 text-sm text-white/70">
-              {w.dateRange}
-              {w.theme ? ` · ${w.theme}` : ""}
-            </div>
+        {weeks.map((w) => {
+          const winnerName = w.winner?.author ?? "TBD";
+          const winnerSrc = w.winner?.src ?? "Galactic_Hub_Calypso_Emblem.png";
+          const isDefaultWinner = !w.winner;
 
-            {w.winner ? (
-              <div className="mt-2 inline-flex items-center rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-xs font-semibold text-amber-200">
-                Winner: {w.winner.author}
+          return (
+            <Link
+              key={w.id}
+              to="/contest/$weekId"
+              params={{ weekId: w.id }}
+              className="rounded-2xl border border-white/10 bg-white/5 p-5 shadow-sm backdrop-blur hover:bg-white/10"
+            >
+              <div className="text-base font-semibold text-white/90">
+                {w.label}
               </div>
-            ) : null}
 
-            {w.winner ? (
+              <div className="mt-1 text-sm text-white/70">
+                {w.dateRange}
+                {w.theme ? ` · ${w.theme}` : ""}
+              </div>
+
+              <div className="mt-2 inline-flex items-center rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-xs font-semibold text-amber-200">
+                Winner: {winnerName}
+              </div>
+
               <div className="mt-4 overflow-hidden rounded-xl border border-white/10 bg-white/5">
                 <img
-                  src={withBase(w.winner.src)}
-                  alt={`Winner photo by ${w.winner.author}`}
+                  src={withBase(winnerSrc)}
+                  alt={
+                    w.winner
+                      ? `Winner photo by ${winnerName}`
+                      : "Winner not decided yet"
+                  }
                   loading="lazy"
-                  className="aspect-[4/3] w-full object-cover"
+                  className={[
+                    "aspect-[4/3] w-full",
+                    isDefaultWinner ? "object-contain p-6" : "object-cover",
+                  ].join(" ")}
                 />
                 <div className="px-4 py-3 text-sm text-white/80">
-                  Winner:{" "}
-                  <span className="font-semibold">{w.winner.author}</span>
+                  Winner: <span className="font-semibold">{winnerName}</span>
                 </div>
               </div>
-            ) : (
+
               <div className="mt-4 text-sm text-white/60">
                 {w.photos.length} photos
               </div>
-            )}
-          </Link>
-        ))}
+            </Link>
+          );
+        })}
       </div>
     </div>
   );

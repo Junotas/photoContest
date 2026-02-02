@@ -29,7 +29,7 @@ export const theme = createTheme({
       secondary: "#e0e0e0", // Light gray for secondary text
     },
     background: {
-      default: "#6a1b9a", // Main purple as background
+      default: "#511378ff", // Main purple as background
       paper: "#ffffff", // White paper elements
       third: "rgba(255, 255, 255, 0.1)", // Semi-transparent white overlay
     },

@@ -197,6 +197,7 @@ export const weeks: WeekEntry[] = [
     ],
   },
 ];
+
 export function getWeekById(id: string): WeekEntry | undefined {
   return weeks.find((w) => w.id === id);
 }
