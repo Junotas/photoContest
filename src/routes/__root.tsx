@@ -5,8 +5,7 @@ import { Link, Outlet, createRootRoute } from "@tanstack/react-router";
 import { Home as HomeIcon, Info as InfoIcon } from "@mui/icons-material";
 import { useTheme } from "@mui/material";
 
-const baseLinkStyles =
-  "flex items-center space-x-2 hover:transition font-bold";
+const baseLinkStyles = "flex items-center space-x-2 hover:transition font-bold";
 
 export const Route = createRootRoute({
   component: () => {
