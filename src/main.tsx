@@ -10,8 +10,11 @@ import { ThemeProvider, CssBaseline } from "@mui/material";
 import "./index.css";
 
 const queryClient = new QueryClient();
-const router = createRouter({ routeTree });
 
+const baseUrl = import.meta.env.BASE_URL;
+const basepath = baseUrl === "/" ? "/" : baseUrl.replace(/\/$/, "");
+
+const router = createRouter({ routeTree, basepath });
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
