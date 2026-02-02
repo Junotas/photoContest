@@ -10,10 +10,58 @@ export const strings = {
     tagline: "Capture. Share. Compete.",
     description:
       "Welcome to CalHub's weekly photo contest. Entries are uploaded and voted on Discord.",
+
     primaryCta: "View contest archive",
+
+    links: {
+      wiki: {
+        label: "CalHub Wiki",
+        href: "https://nmsgalactichub.miraheze.org/wiki/Galactic_Hub_Calypso",
+      },
+      discord: {
+        label: "CalHub Discord",
+        href: "https://discord.gg/MAWQvQPP",
+      },
+    },
+
+    steps: [
+      {
+        kicker: "Enter",
+        title: "Submit one photo",
+        description:
+          "Post your entry before Saturday 20:00 (UTC+1). Late posts roll into next week.",
+      },
+      {
+        kicker: "Vote",
+        title: "3-day poll on Discord",
+        description: "A Discord poll runs for 3 days. One vote per person.",
+      },
+      {
+        kicker: "Winner",
+        title: "Announced when the poll ends",
+        description: "The winner is highlighted in the archive for that week.",
+      },
+    ],
+
+    checklistTitle: "Submission checklist",
+    checklist: [
+      "One photo per person per week",
+      "Post before Saturday 20:00 (UTC+1)",
+      "Must be in CalHub Space with glyphs visible",
+      "Must be on the census to enter and vote",
+    ],
+
+    submitCard: {
+      kicker: "How to submit",
+      channelLabel: "Photo Challenges Thread (Screenshots channel)",
+      description:
+        "Post your photo there with the caption exactly “Weekly photo challenge” or “Weekly photo”, and nothing else.",
+    },
+
     rulesTitle: "Rules",
     rulesIntro:
       "Quick rules overview. Full details are posted in Discord if needed.",
+
     rules: [
       {
         title: "Schedule",
