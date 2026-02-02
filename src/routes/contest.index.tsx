@@ -34,7 +34,7 @@ function ContestPage() {
 
               <div className="mt-1 text-sm text-white/70">
                 {w.dateRange}
-                {w.theme ? ` · ${w.theme}` : ""}
+                {w.theme ? ` · Theme: ${w.theme}` : ""}
               </div>
 
               <div className="mt-2 inline-flex items-center rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-xs font-semibold text-amber-200">
