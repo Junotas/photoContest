@@ -9,7 +9,7 @@ export const strings = {
     title: "CalHub Weekly Photo Contest",
     tagline: "Capture. Share. Compete.",
     description:
-      "Welcome to the weekly photo contest gallery. Entries are uploaded via Git, and voting happens on Discord.",
+      "Welcome to CalHub's weekly photo contest. Entries are uploaded and voted on Discord.",
     primaryCta: "View contest archive",
     rulesTitle: "Rules",
     rulesIntro:
