@@ -12,7 +12,7 @@ function ContestPage() {
         Weekly Photo Contest
       </h1>
       <p className="mt-2 text-sm text-white/70">
-        Photos are uploaded via Git. Voting happens on Discord.
+        Voting happens on Discord.
       </p>
 
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
