@@ -120,6 +120,10 @@ export const weeks: WeekEntry[] = [
     label: "Week 5",
     dateRange: "24th - 31st January 2026",
     theme: "None",
+    winner: {
+      author: "Calix",
+      src: "photos/2026-w05/calix.png",
+    },
     photos: [
       {
         src: "photos/2026-w05/calix.png",
