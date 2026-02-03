@@ -7,9 +7,9 @@ export const strings = {
 
   home: {
     title: "CalHub Weekly Photo Contest",
-    tagline: "Capture. Share. Compete.",
+    tagline: "Welcome to CalHub's weekly photo contest. Entries are uploaded and voted on Discord.",
     description:
-      "Welcome to CalHub's weekly photo contest. Entries are uploaded and voted on Discord.",
+      "For those seeking the chaotic beauty not normally presented in No Man's Sky.",
 
     primaryCta: "View contest archive",
 
