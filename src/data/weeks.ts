@@ -225,6 +225,19 @@ export const weeks: WeekEntry[] = [
       },
     ],
   },
+   {
+    id: "2026-w07",
+    label: "Week 7",
+    dateRange: "7th - 14th February 2026",
+    theme: "None",
+    photos: [
+      {
+        src: "photos/2026-w07/nyek.png",
+        author: "nyek",
+        alt: "Weekly photo contest entry by nyek",
+      },
+    ],
+  },
 ];
 
 export function getWeekById(id: string): WeekEntry | undefined {
