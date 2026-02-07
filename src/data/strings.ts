@@ -90,7 +90,6 @@ export const strings = {
         title: "Eligibility",
         items: [
           "One photo per person per week.",
-          "One vote per person in the poll.",
           "To enter and vote, you must be on the census.",
         ],
       },
