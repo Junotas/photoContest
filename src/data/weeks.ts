@@ -167,6 +167,10 @@ export const weeks: WeekEntry[] = [
     label: "Week 6",
     dateRange: "31st January - 7th February 2026",
     theme: "None",
+    winner: {
+      author: "SaltRiverEagle",
+      src: "photos/2026-w06/SaltRiverEagle.png",
+    },
     photos: [
       {
         src: "photos/2026-w06/aqualungXIV.jpg",
@@ -231,6 +235,21 @@ export const weeks: WeekEntry[] = [
     dateRange: "7th - 14th February 2026",
     theme: "None",
     photos: [
+      {
+        src: "photos/2026-w07/madamepandoraX.png",
+        author: "madamepandoraX",
+        alt: "Weekly photo contest entry by madamepandoraX",
+      },
+      {
+        src: "photos/2026-w07/SaltRiverEagle.png",
+        author: "SaltRiverEagle",
+        alt: "Weekly photo contest entry by SaltRiverEagle",
+      },
+      {
+        src: "photos/2026-w07/calix.png",
+        author: "calix",
+        alt: "Weekly photo contest entry by calix",
+      },
       {
         src: "photos/2026-w07/nyek.png",
         author: "nyek",
