@@ -229,7 +229,7 @@ export const weeks: WeekEntry[] = [
       },
     ],
   },
-   {
+  {
     id: "2026-w07",
     label: "Week 7",
     dateRange: "7th - 14th February 2026",
@@ -280,7 +280,11 @@ export const weeks: WeekEntry[] = [
         author: "Vosinigr",
         alt: "Weekly photo contest entry by Vosinigr",
       },
-    
+      {
+        src: "photos/2026-w07/DiscoHippie.jpg",
+        author: "DiscoHippie",
+        alt: "Weekly photo contest entry by DiscoHippie",
+      },
     ],
   },
 ];
