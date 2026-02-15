@@ -298,6 +298,11 @@ export const weeks: WeekEntry[] = [
     dateRange: "14th - 21st February 2026",
     theme: "None",
     photos: [
+      {
+        src: "photos/2026-w08/madamepandoraX.png",
+        author: "madamepandoraX",
+        alt: "Weekly photo contest entry by madamepandoraX",
+      },
     ]
   }
 ];
