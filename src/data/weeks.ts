@@ -234,6 +234,10 @@ export const weeks: WeekEntry[] = [
     label: "Week 7",
     dateRange: "7th - 14th February 2026",
     theme: "None",
+    winner: {
+      author: "Calix",
+      src: "photos/2026-w07/calix.png",
+    },
     photos: [
       {
         src: "photos/2026-w07/madamepandoraX.png",
