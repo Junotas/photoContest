@@ -332,8 +332,13 @@ export const weeks: WeekEntry[] = [
         author: "GabrielEBV",
         alt: "Weekly photo contest entry by GabrielEBV",
       },
-    ]
-  }
+      {
+        src: "photos/2026-w08/BiddydaKid.png",
+        author: "BiddydaKid",
+        alt: "Weekly photo contest entry by BiddydaKid",
+      },
+    ],
+  },
 ];
 
 export function getWeekById(id: string): WeekEntry | undefined {
