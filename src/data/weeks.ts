@@ -344,6 +344,30 @@ export const weeks: WeekEntry[] = [
       },
     ],
   },
+  {
+    id: "2026-w09",
+    label: "Week 9",
+    dateRange: "21st - 28th February 2026",
+    theme: "None",
+    photos: [
+    ],
+  },
+  {
+    id: "2026-w10",
+    label: "Week 10",
+    dateRange: "28th February - 7th March 2026",
+    theme: "None",
+    photos: [
+    ],
+  },
+  {
+    id: "2026-w11",
+    label: "Week 11",
+    dateRange: "7th - 14th March 2026",
+    theme: "None",
+    photos: [
+    ],
+  },
 ];
 
 export function getWeekById(id: string): WeekEntry | undefined {
