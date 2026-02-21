@@ -350,6 +350,11 @@ export const weeks: WeekEntry[] = [
     dateRange: "21st - 28th February 2026",
     theme: "None",
     photos: [
+      {
+        src: "photos/2026-w09/Nyek.png",
+        author: "Nyek",
+        alt: "Weekly photo contest entry by Nyek",
+      },
     ],
   },
   {
