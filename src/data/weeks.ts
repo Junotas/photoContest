@@ -390,7 +390,7 @@ export const weeks: WeekEntry[] = [
     id: "2026-w10",
     label: "Week 10",
     dateRange: "28th February - 7th March 2026",
-    theme: "None",
+    theme: "Fauna",
     photos: [
     ],
   },
