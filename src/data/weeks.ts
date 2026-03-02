@@ -353,6 +353,10 @@ export const weeks: WeekEntry[] = [
     label: "Week 9",
     dateRange: "21st - 28th February 2026",
     theme: "None",
+    winner: {
+      author: "Disco",
+      src: "photos/2026-w09/Disco.jpg",
+    },
     photos: [
       {
         src: "photos/2026-w09/Nyek.png",
@@ -392,6 +396,11 @@ export const weeks: WeekEntry[] = [
     dateRange: "28th February - 7th March 2026",
     theme: "Fauna",
     photos: [
+      {
+        src: "photos/2026-w10/Calix.png",
+        author: "Calix",
+        alt: "Weekly photo contest entry by Calix",
+      },
     ],
   },
   {
