@@ -424,6 +424,11 @@ export const weeks: WeekEntry[] = [
     dateRange: "7th - 14th March 2026",
     theme: "None",
     photos: [
+      {
+        src: "photos/2026-w11/Calix.png",
+        author: "Calix",
+        alt: "Weekly photo contest entry by Calix",
+      },
     ],
   },
 ];
