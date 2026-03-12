@@ -395,7 +395,7 @@ export const weeks: WeekEntry[] = [
     label: "Week 10",
     dateRange: "28th February - 7th March 2026",
     theme: "Fauna",
-     winner: {
+    winner: {
       author: "Calix",
       src: "photos/2026-w10/Calix.png",
     },
@@ -444,6 +444,41 @@ export const weeks: WeekEntry[] = [
         alt: "Weekly photo contest entry by Nyek",
       },
     ],
+  },
+  {
+    id: "2026-w12",
+    label: "Week 12",
+    dateRange: "14th - 21st March 2026",
+    theme: "None",
+    photos: [],
+  },
+  {
+    id: "2026-w13",
+    label: "Week 13",
+    dateRange: "21st - 28th March 2026",
+    theme: "None",
+    photos: [],
+  },
+  {
+    id: "2026-w14",
+    label: "Week 14",
+    dateRange: "28th March - 4th April 2026",
+    theme: "None",
+    photos: [],
+  },
+  {
+    id: "2026-w15",
+    label: "Week 15",
+    dateRange: "4th - 11th April 2026",
+    theme: "None",
+    photos: [],
+  },
+  {
+    id: "2026-w16",
+    label: "Week 16",
+    dateRange: "11th - 18th April 2026",
+    theme: "None",
+    photos: [],
   },
 ];
 
