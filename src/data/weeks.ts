@@ -455,7 +455,13 @@ export const weeks: WeekEntry[] = [
     label: "Week 12",
     dateRange: "14th - 21st March 2026",
     theme: "None",
-    photos: [],
+    photos: [
+      {
+        src: "photos/2026-w12/aqualungXIV.JPG",
+        author: "aqualungXIV",
+        alt: "Weekly photo contest entry by AqualungXIV",
+      },
+    ],
   },
   {
     id: "2026-w13",
