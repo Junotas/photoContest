@@ -427,6 +427,10 @@ export const weeks: WeekEntry[] = [
     label: "Week 11",
     dateRange: "7th - 14th March 2026",
     theme: "Spaceships",
+    winner: {
+      author: "SaltRiverEagle",
+      src: "photos/2026-w11/SaltRiverEagle.png",
+    },
     photos: [
       {
         src: "photos/2026-w11/Calix.png",
