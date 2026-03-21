@@ -451,7 +451,7 @@ export const weeks: WeekEntry[] = [
         src: "photos/2026-w11/Vosinigr.png",
         author: "Vosinigr",
         alt: "Weekly photo contest entry by Vosinigr",
-      }
+      },
     ],
   },
   {
@@ -497,7 +497,13 @@ export const weeks: WeekEntry[] = [
     label: "Week 13",
     dateRange: "21st - 28th March 2026",
     theme: "Storms",
-    photos: [],
+    photos: [
+      {
+        src: "photos/2026-w13/Calix.png",
+        author: "Calix",
+        alt: "Weekly photo contest entry by Calix",
+      },
+    ],
   },
   {
     id: "2026-w14",
