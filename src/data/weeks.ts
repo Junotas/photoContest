@@ -535,6 +535,34 @@ export const weeks: WeekEntry[] = [
     theme: "None",
     photos: [],
   },
+  {
+    id: "2026-w17",
+    label: "Week 17",
+    dateRange: "18th - 25th April 2026",
+    theme: "None",
+    photos: [],
+  },
+  {
+    id: "2026-w18",
+    label: "Week 18",
+    dateRange: "25th April - 2nd May 2026",
+    theme: "None",
+    photos: [],
+  },
+  {
+    id: "2026-w19",
+    label: "Week 19",
+    dateRange: "2nd - 9th May 2026",
+    theme: "None",
+    photos: [],
+  },
+  {
+    id: "2026-w20",
+    label: "Week 20",
+    dateRange: "9th - 16th May 2026",
+    theme: "None",
+    photos: [],
+  },
 ];
 
 export function getWeekById(id: string): WeekEntry | undefined {
