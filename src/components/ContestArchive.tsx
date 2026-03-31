@@ -1,7 +1,7 @@
 // @ts-expect-error: Unused variable
 import React from "react";
 import { Link } from "@tanstack/react-router";
-import { weeks, withBase } from "../data/weeks";
+import { weeks, withBase, getFirstPlaceEntries } from "../data/weeks";
 import { useTheme } from "@mui/material";
 import { alpha } from "@mui/material/styles";
 
@@ -9,6 +9,7 @@ const COPY = {
   title: "Weekly Photo Contest",
   description: "Photos are uploaded and voted on Discord.",
   winnerPrefix: "Winner:",
+  jointWinnersPrefix: "Joint winners:",
   tbdWinner: "TBD",
   winnerNotDecidedAlt: "Winner not decided yet",
   photosSuffix: "photos",
@@ -40,9 +41,17 @@ export function ContestArchive() {
 
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {weeks.map((w) => {
-          const winnerName = w.winner?.author ?? COPY.tbdWinner;
-          const winnerSrc = w.winner?.src ?? COPY.defaultWinnerSrc;
-          const isDefaultWinner = !w.winner;
+          const firstPlaceEntries = getFirstPlaceEntries(w);
+          const hasWinners = firstPlaceEntries.length > 0;
+          const isJointWinner = firstPlaceEntries.length > 1;
+          const winnerLabel = hasWinners
+            ? firstPlaceEntries.map((entry) => entry.author).join(", ")
+            : COPY.tbdWinner;
+          const winnerPrefix = isJointWinner
+            ? COPY.jointWinnersPrefix
+            : COPY.winnerPrefix;
+          const winnerSrc = firstPlaceEntries[0]?.src ?? COPY.defaultWinnerSrc;
+          const isDefaultWinner = !hasWinners;
 
           return (
             <Link
@@ -86,7 +95,7 @@ export function ContestArchive() {
                   color: theme.palette.text.primary,
                 }}
               >
-                {COPY.winnerPrefix} {winnerName}
+                {winnerPrefix} {winnerLabel}
               </div>
 
               <div
@@ -99,8 +108,8 @@ export function ContestArchive() {
                 <img
                   src={withBase(winnerSrc)}
                   alt={
-                    w.winner
-                      ? `Winner photo by ${winnerName}`
+                    hasWinners
+                      ? `${winnerPrefix} ${winnerLabel}`
                       : COPY.winnerNotDecidedAlt
                   }
                   loading="lazy"
@@ -114,12 +123,12 @@ export function ContestArchive() {
                   className="px-4 py-3 text-sm"
                   style={{ color: theme.palette.text.secondary }}
                 >
-                  {COPY.winnerPrefix}{" "}
+                  {winnerPrefix}{" "}
                   <span
                     className="font-semibold"
                     style={{ color: theme.palette.text.primary }}
                   >
-                    {winnerName}
+                    {winnerLabel}
                   </span>
                 </div>
               </div>
