@@ -5,12 +5,29 @@ export type PhotoEntry = {
   alt: string;
 };
 
+export type PlacementEntry = {
+  author: string;
+  src: string;
+};
+
+export type Placement = {
+  place: number;
+  entries: PlacementEntry[];
+};
+export function getWeekById(id: string): WeekEntry | undefined {
+  return weeks.find((w) => w.id === id);
+}
+
+export function getFirstPlaceEntries(week: WeekEntry): PlacementEntry[] {
+  return week.placements?.find((p) => p.place === 1)?.entries ?? [];
+}
+
 export type WeekEntry = {
   id: string;
   label: string;
   dateRange: string;
   theme?: string;
-  winner?: { author: string; src: string };
+  placements?: Placement[];
   photos: PhotoEntry[];
 };
 
@@ -26,10 +43,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 3",
     dateRange: "10th - 17th January 2026",
     theme: "None",
-    winner: {
-      author: "Disco",
-      src: "photos/2026-w03/DiscoHippie.jpg",
-    },
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Disco",
+            src: "photos/2026-w03/DiscoHippie.jpg",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w03/Calix.png",
@@ -73,10 +97,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 4",
     dateRange: "17th - 24th January 2026",
     theme: "None",
-    winner: {
-      author: "Travars",
-      src: "photos/2026-w04/Travars.jpg",
-    },
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Travars",
+            src: "photos/2026-w04/Travars.jpg",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w04/calix.png",
@@ -120,10 +151,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 5",
     dateRange: "24th - 31st January 2026",
     theme: "None",
-    winner: {
-      author: "Calix",
-      src: "photos/2026-w05/calix.png",
-    },
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Calix",
+            src: "photos/2026-w05/calix.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w05/calix.png",
@@ -167,10 +205,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 6",
     dateRange: "31st January - 7th February 2026",
     theme: "None",
-    winner: {
-      author: "SaltRiverEagle",
-      src: "photos/2026-w06/SaltRiverEagle.png",
-    },
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "SaltRiverEagle",
+            src: "photos/2026-w06/SaltRiverEagle.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w06/aqualungXIV.jpg",
@@ -234,10 +279,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 7",
     dateRange: "7th - 14th February 2026",
     theme: "None",
-    winner: {
-      author: "Calix",
-      src: "photos/2026-w07/calix.png",
-    },
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Calix",
+            src: "photos/2026-w07/calix.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w07/madamepandoraX.png",
@@ -301,10 +353,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 8",
     dateRange: "14th - 21st February 2026",
     theme: "None",
-    winner: {
-      author: "BiddydaKid",
-      src: "photos/2026-w08/BiddydaKid.png",
-    },
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "BiddydaKid",
+            src: "photos/2026-w08/BiddydaKid.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w08/madamepandoraX.png",
@@ -353,10 +412,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 9",
     dateRange: "21st - 28th February 2026",
     theme: "None",
-    winner: {
-      author: "Disco",
-      src: "photos/2026-w09/Disco.jpg",
-    },
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Disco",
+            src: "photos/2026-w09/Disco.jpg",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w09/Nyek.png",
@@ -395,10 +461,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 10",
     dateRange: "28th February - 7th March 2026",
     theme: "Fauna",
-    winner: {
-      author: "Calix",
-      src: "photos/2026-w10/Calix.png",
-    },
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Calix",
+            src: "photos/2026-w10/Calix.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w10/Calix.png",
@@ -427,10 +500,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 11",
     dateRange: "7th - 14th March 2026",
     theme: "Spaceships",
-    winner: {
-      author: "SaltRiverEagle",
-      src: "photos/2026-w11/SaltRiverEagle.png",
-    },
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "SaltRiverEagle",
+            src: "photos/2026-w11/SaltRiverEagle.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w11/Calix.png",
@@ -459,10 +539,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 12",
     dateRange: "14th - 21st March 2026",
     theme: "None",
-    winner: {
-      author: "Disco",
-      src: "photos/2026-w12/Disco.jpg",
-    },
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Disco",
+            src: "photos/2026-w12/Disco.jpg",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w12/aqualungXIV.JPG",
@@ -506,6 +593,25 @@ export const weeks: WeekEntry[] = [
     label: "Week 13",
     dateRange: "21st - 28th March 2026",
     theme: "Storms",
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Calix",
+            src: "photos/2026-w13/Calix.png",
+          },
+          {
+            author: "Nyek",
+            src: "photos/2026-w13/Nyek.png",
+          },
+          {
+            author: "Maxpower",
+            src: "photos/2026-w13/Maxpower.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w13/Calix.png",
@@ -585,7 +691,3 @@ export const weeks: WeekEntry[] = [
     photos: [],
   },
 ];
-
-export function getWeekById(id: string): WeekEntry | undefined {
-  return weeks.find((w) => w.id === id);
-}
