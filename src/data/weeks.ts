@@ -712,6 +712,11 @@ export const weeks: WeekEntry[] = [
         author: "Radomner",
         alt: "Weekly photo contest entry by Radomner",
       },
+      {
+        src: "photos/2026-w16/Vosinigr.png",
+        author: "Vosinigr",
+        alt: "Weekly photo contest entry by Vosinigr",
+      },
     ],
   },
   {
