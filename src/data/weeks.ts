@@ -635,6 +635,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 14",
     dateRange: "28th March - 4th April 2026",
     theme: "None",
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Nyek",
+            src: "photos/2026-w14/Nyek.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w14/Calix.png",
