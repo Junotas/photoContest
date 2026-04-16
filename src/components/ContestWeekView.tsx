@@ -142,7 +142,7 @@ export function ContestWeekView({ weekId }: Props) {
           )}
         </div>
       ) : null}
-
+ 
       <div className="mt-8">
         <GalleryGrid
           photos={week.photos}
