@@ -4,7 +4,7 @@ import { Link } from "@tanstack/react-router";
 import { weeks, withBase, getFirstPlaceEntries } from "../data/weeks";
 import { useTheme } from "@mui/material";
 import { alpha } from "@mui/material/styles";
-
+ 
 const COPY = {
   title: "Weekly Photo Contest",
   description: "Photos are uploaded and voted on Discord.",
