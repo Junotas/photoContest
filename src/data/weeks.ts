@@ -719,7 +719,7 @@ export const weeks: WeekEntry[] = [
     id: "2026-w16",
     label: "Week 16",
     dateRange: "11th - 18th April 2026",
-    theme: "None",
+    theme: "PokeSean/Companions!",
     photos: [
       {
         src: "photos/2026-w16/Nyek.png",
