@@ -723,9 +723,7 @@ export const weeks: WeekEntry[] = [
     placements: [
       {
         place: 1,
-        entries: [
-          { author: "ScrapperBee", src: "photos/2026-w16/Disco.jpg" },
-        ],
+        entries: [{ author: "ScrapperBee", src: "photos/2026-w16/Disco.jpg" }],
       },
     ],
     photos: [
@@ -766,7 +764,13 @@ export const weeks: WeekEntry[] = [
     label: "Week 17",
     dateRange: "18th - 25th April 2026",
     theme: "None",
-    photos: [],
+    photos: [
+      {
+        src: "photos/2026-w17/Calix.png",
+        author: "Calix",
+        alt: "Weekly photo contest entry by Calix",
+      },
+    ],
   },
   {
     id: "2026-w18",
