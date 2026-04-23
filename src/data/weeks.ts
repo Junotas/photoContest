@@ -763,7 +763,7 @@ export const weeks: WeekEntry[] = [
     id: "2026-w17",
     label: "Week 17",
     dateRange: "18th - 25th April 2026",
-    theme: "None",
+    theme: "oceans / water / coastlines",
     photos: [
       {
         src: "photos/2026-w17/Calix.png",
