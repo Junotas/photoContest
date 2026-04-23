@@ -723,7 +723,7 @@ export const weeks: WeekEntry[] = [
     placements: [
       {
         place: 1,
-        entries: [{ author: "ScrapperBee", src: "photos/2026-w16/Disco.jpg" }],
+        entries: [{ author: "Disco", src: "photos/2026-w16/Disco.jpg" }],
       },
     ],
     photos: [
