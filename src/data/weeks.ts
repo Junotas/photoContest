@@ -764,6 +764,12 @@ export const weeks: WeekEntry[] = [
     label: "Week 17",
     dateRange: "18th - 25th April 2026",
     theme: "oceans / water / coastlines",
+    placements: [
+      {
+        place: 1,
+        entries: [{ author: "Randomner", src: "photos/2026-w17/Randomner.png" }],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w17/Calix.png",
