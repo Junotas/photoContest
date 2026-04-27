@@ -767,7 +767,9 @@ export const weeks: WeekEntry[] = [
     placements: [
       {
         place: 1,
-        entries: [{ author: "Randomner", src: "photos/2026-w17/Randomner.png" }],
+        entries: [
+          { author: "Randomner", src: "photos/2026-w17/Randomner.png" },
+        ],
       },
     ],
     photos: [
@@ -823,6 +825,11 @@ export const weeks: WeekEntry[] = [
         src: "photos/2026-w18/MadamepandoraX.png",
         author: "MadamepandoraX",
         alt: "Weekly photo contest entry by MadamepandoraX",
+      },
+      {
+        src: "photos/2026-w18/Nyek.png",
+        author: "Nyek",
+        alt: "Weekly photo contest entry by Nyek",
       },
     ],
   },
