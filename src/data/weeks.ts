@@ -852,4 +852,32 @@ export const weeks: WeekEntry[] = [
     theme: "None",
     photos: [],
   },
+  {
+    id: "2026-w21",
+    label: "Week 21",
+    dateRange: "16th - 23rd May 2026",
+    theme: "None",
+    photos: [],
+  },
+  {
+    id: "2026-w22",
+    label: "Week 22",
+    dateRange: "23rd - 30th May 2026",
+    theme: "None",
+    photos: [],
+  },
+  {
+    id: "2026-w23",
+    label: "Week 23",
+    dateRange: "30th May - 7th June 2026",
+    theme: "None",
+    photos: [],
+  },
+  {
+    id: "2026-w24",
+    label: "Week 24",
+    dateRange: "7th - 14th June 2026",
+    theme: "None",
+    photos: [],
+  },
 ];
