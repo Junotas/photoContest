@@ -852,8 +852,19 @@ export const weeks: WeekEntry[] = [
     id: "2026-w19",
     label: "Week 19",
     dateRange: "2nd - 9th May 2026",
-    theme: "None",
-    photos: [],
+    theme: "Multi-Tools!",
+    photos: [
+      {
+        src: "photos/2026-w19/Calix.png",
+        author: "Calix",
+        alt: "Weekly photo contest entry by Calix",
+      },
+      {
+        src: "photos/2026-w19/Nyek.png",
+        author: "Nyek",
+        alt: "Weekly photo contest entry by Nyek",
+      },
+    ],
   },
   {
     id: "2026-w20",
