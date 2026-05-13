@@ -868,6 +868,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 19",
     dateRange: "2nd - 9th May 2026",
     theme: "Multi-Tools!",
+     placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Calix",
+            src: "photos/2026-w19/Calix.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w19/Calix.png",
