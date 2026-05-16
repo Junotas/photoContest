@@ -815,7 +815,7 @@ export const weeks: WeekEntry[] = [
     label: "Week 18",
     dateRange: "25th April - 2nd May 2026",
     theme: "Multiplayer / Exploring together",
-        placements: [
+    placements: [
       {
         place: 1,
         entries: [
@@ -868,7 +868,7 @@ export const weeks: WeekEntry[] = [
     label: "Week 19",
     dateRange: "2nd - 9th May 2026",
     theme: "Multi-Tools!",
-     placements: [
+    placements: [
       {
         place: 1,
         entries: [
@@ -927,6 +927,11 @@ export const weeks: WeekEntry[] = [
         src: "photos/2026-w20/TheArchitect.jpg",
         author: "TheArchitect",
         alt: "Weekly photo contest entry by TheArchitect",
+      },
+      {
+        src: "photos/2026-w20/Disco.jpg",
+        author: "Disco",
+        alt: "Weekly photo contest entry by Disco",
       },
     ],
   },
