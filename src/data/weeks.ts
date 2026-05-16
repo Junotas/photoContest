@@ -896,7 +896,7 @@ export const weeks: WeekEntry[] = [
     id: "2026-w20",
     label: "Week 20",
     dateRange: "9th - 16th May 2026",
-    theme: "None",
+    theme: "Green!",
     photos: [
       {
         src: "photos/2026-w20/Calix.png",
