@@ -1004,7 +1004,23 @@ export const weeks: WeekEntry[] = [
     label: "Week 22",
     dateRange: "23rd - 30th May 2026",
     theme: "None",
-    photos: [],
+    photos: [
+      {
+        author: "Calix",
+        src: "photos/2026-w22/Calix.png",
+        alt: "Weekly photo contest entry by Calix",
+      },
+      {
+        author: "Nyek",
+        src: "photos/2026-w22/Nyek.png",
+        alt: "Weekly photo contest entry by Nyek",
+      },
+      {
+        author: "Vosinigr",
+        src: "photos/2026-w22/Vosinigr.png",
+        alt: "Weekly photo contest entry by Vosinigr",
+      },
+    ],
   },
   {
     id: "2026-w23",
