@@ -960,6 +960,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 21",
     dateRange: "16th - 23rd May 2026",
     theme: "Purple!",
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Disco",
+            src: "photos/2026-w21/Disco.jpg",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         src: "photos/2026-w21/Calix.png",
