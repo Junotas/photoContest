@@ -1007,9 +1007,7 @@ export const weeks: WeekEntry[] = [
     placements: [
       {
         place: 1,
-        entries: [
-          { author: "Nyek", src: "photos/2026-w22/Nyek.png" },
-        ],
+        entries: [{ author: "Nyek", src: "photos/2026-w22/Nyek.png" }],
       },
     ],
     photos: [
@@ -1046,6 +1044,16 @@ export const weeks: WeekEntry[] = [
         src: "photos/2026-w23/Nyek.png",
         alt: "Weekly photo contest entry by Nyek",
       },
+      {
+        author: "Vosinigr",
+        src: "photos/2026-w23/Vosinigr.png",
+        alt: "Weekly photo contest entry by Vosinigr",
+      },
+      {
+        author: "ScrapperBee",
+        src: "photos/2026-w23/ScrapperBee.png",
+        alt: "Weekly photo contest entry by ScrapperBee",
+      },
     ],
   },
   {
@@ -1053,6 +1061,12 @@ export const weeks: WeekEntry[] = [
     label: "Week 24",
     dateRange: "7th - 14th June 2026",
     theme: "None",
-    photos: [],
+    photos: [
+      {
+        author: "ScrapperBee",
+        src: "photos/2026-w24/ScrapperBee.png",
+        alt: "Weekly photo contest entry by ScrapperBee",
+      },
+    ],
   },
 ];
