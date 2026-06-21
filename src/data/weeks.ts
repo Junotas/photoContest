@@ -1074,6 +1074,14 @@ export const weeks: WeekEntry[] = [
     label: "Week 24",
     dateRange: "7th - 14th June 2026",
     theme: "None",
+    placements: [
+      {
+        place: 1,
+        entries: [
+          { author: "scrapperBee", src: "photos/2026-w24/ScrapperBee.png" },
+        ],
+      },
+    ],
     photos: [
       {
         author: "ScrapperBee",
