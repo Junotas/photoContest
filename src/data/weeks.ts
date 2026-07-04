@@ -1142,6 +1142,12 @@ export const weeks: WeekEntry[] = [
     label: "Week 26",
     dateRange: "21st - 28th June 2026",
     theme: "None",
+    placements: [
+      {
+        place: 1,
+        entries: [{ author: "Nyek", src: "photos/2026-w26/Nyek.png" }],
+      },
+    ],
     photos: [
       {
         author: "Disco",
@@ -1167,7 +1173,7 @@ export const weeks: WeekEntry[] = [
         author: "Nyek",
         src: "photos/2026-w26/Nyek.png",
         alt: "Weekly photo contest entry by Nyek",
-      }
+      },
     ],
   },
   {
@@ -1175,7 +1181,23 @@ export const weeks: WeekEntry[] = [
     label: "Week 27",
     dateRange: "28th June - 5th July 2026",
     theme: "TBD",
-    photos: [],
+    photos: [
+      {
+        author: "Nyek",
+        src: "photos/2026-w27/Nyek.png",
+        alt: "Weekly photo contest entry by Nyek",
+      },
+      {
+        author: "Keylor",
+        src: "photos/2026-w27/Keylor.png",
+        alt: "Weekly photo contest entry by Keylor",
+      },
+      {
+        author: "PSNplugNplay97",
+        src: "photos/2026-w27/PSNplugNplay97.jpg",
+        alt: "Weekly photo contest entry by PSNplugNplay97",
+      }
+    ],
   },
   {
     id: "2026-w28",
