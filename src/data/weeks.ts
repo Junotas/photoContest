@@ -1196,6 +1196,11 @@ export const weeks: WeekEntry[] = [
         author: "PSNplugNplay97",
         src: "photos/2026-w27/PSNplugNplay97.jpg",
         alt: "Weekly photo contest entry by PSNplugNplay97",
+      },
+      {
+        author:"Vosinigr",
+        src: "photos/2026-w27/Vosinigr.png",
+        alt: "Weekly photo contest entry by Vosinigr",
       }
     ],
   },
