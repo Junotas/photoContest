@@ -1215,7 +1215,28 @@ export const weeks: WeekEntry[] = [
     label: "Week 28",
     dateRange: "5th - 12th July 2026",
     theme: "TBD",
-    photos: [],
+    photos: [
+      {
+        author: "Disco",
+        src: "photos/2026-w28/Disco.jpg",
+        alt: "Weekly photo contest entry by Disco",
+      },
+      {
+        author: "Gwap",
+        src: "photos/2026-w28/Gwap.png",
+        alt: "Weekly photo contest entry by Gwap",
+      },
+      {
+        author: "Keylor",
+        src: "photos/2026-w28/Keylor.png",
+        alt: "Weekly photo contest entry by Keylor",
+      },
+      {
+        author: "PSNplugNplay97",
+        src: "photos/2026-w28/PSNplugNplay97.jpg",
+        alt: "Weekly photo contest entry by PSNplugNplay97",
+      }
+    ],
   },
   {
     id: "2026-w29",
