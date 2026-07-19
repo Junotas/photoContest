@@ -1215,6 +1215,12 @@ export const weeks: WeekEntry[] = [
     label: "Week 28",
     dateRange: "5th - 12th July 2026",
     theme: "TBD",
+    placements: [
+      {
+        place: 1,
+        entries: [{ author: "Gwap", src: "photos/2026-w28/Gwap.png" }],
+      },
+    ],
     photos: [
       {
         author: "Disco",
