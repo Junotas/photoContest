@@ -1204,10 +1204,10 @@ export const weeks: WeekEntry[] = [
         alt: "Weekly photo contest entry by PSNplugNplay97",
       },
       {
-        author:"Vosinigr",
+        author: "Vosinigr",
         src: "photos/2026-w27/Vosinigr.png",
         alt: "Weekly photo contest entry by Vosinigr",
-      }
+      },
     ],
   },
   {
@@ -1241,7 +1241,7 @@ export const weeks: WeekEntry[] = [
         author: "PSNplugNplay97",
         src: "photos/2026-w28/PSNplugNplay97.jpg",
         alt: "Weekly photo contest entry by PSNplugNplay97",
-      }
+      },
     ],
   },
   {
@@ -1252,7 +1252,12 @@ export const weeks: WeekEntry[] = [
     placements: [
       {
         place: 1,
-        entries: [{ author: "PSNplugNplay97", src: "photos/2026-w29/PSNplugNplay97.jpg" }],
+        entries: [
+          {
+            author: "PSNplugNplay97",
+            src: "photos/2026-w29/PSNplugNplay97.jpg",
+          },
+        ],
       },
     ],
     photos: [
@@ -1280,7 +1285,7 @@ export const weeks: WeekEntry[] = [
         author: "PSNplugNplay97",
         src: "photos/2026-w29/PSNplugNplay97.jpg",
         alt: "Weekly photo contest entry by PSNplugNplay97",
-      }
+      },
     ],
   },
   {
@@ -1288,6 +1293,37 @@ export const weeks: WeekEntry[] = [
     label: "Week 30",
     dateRange: "19th - 26th July 2026",
     theme: "TBD",
-    photos: [],
+    photos: [
+      {
+        author: "Gwap",
+        src: "photos/2026-w30/Gwap.png",
+        alt: "Weekly photo contest entry by Gwap",
+      },
+      {
+        author: "Gfudi",
+        src: "photos/2026-w30/Gfudi.jpg",
+        alt: "Weekly photo contest entry by Gfudi",
+      },
+      {
+        author: "Nyek",
+        src: "photos/2026-w30/Nyek.png",
+        alt: "Weekly photo contest entry by Nyek",
+      },
+      {
+        author: "DogQuixote",
+        src: "photos/2026-w30/DogQuixote.png",
+        alt: "Weekly photo contest entry by DogQuixote",
+      },
+      {
+        author: "User",
+        src: "photos/2026-w30/User.png",
+        alt: "Weekly photo contest entry by User",
+      },
+      {
+        author: "Keylor",
+        src: "photos/2026-w30/Keylor.png",
+        alt: "Weekly photo contest entry by Keylor",
+      }
+    ],
   },
 ];
