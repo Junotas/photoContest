@@ -1301,7 +1301,7 @@ export const weeks: WeekEntry[] = [
       },
       {
         author: "Gfudi",
-        src: "photos/2026-w30/Gfudi.jpg",
+        src: "photos/2026-w30/Gfudi.png",
         alt: "Weekly photo contest entry by Gfudi",
       },
       {
@@ -1311,7 +1311,7 @@ export const weeks: WeekEntry[] = [
       },
       {
         author: "DogQuixote",
-        src: "photos/2026-w30/DogQuixote.png",
+        src: "photos/2026-w30/DogQuixote.jpg",
         alt: "Weekly photo contest entry by DogQuixote",
       },
       {
