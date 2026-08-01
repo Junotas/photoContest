@@ -1342,7 +1342,33 @@ export const weeks: WeekEntry[] = [
     label: "Week 31",
     dateRange: "26th July - 2nd August 2026",
     theme: "TBD",
-    photos: [],
+    photos: [
+      {
+        author: "Calix",
+        src: "photos/2026-w31/Calix.jpg",
+        alt: "Weekly photo contest entry by Calix",
+      },
+      {
+        author: "Vosinigr",
+        src: "photos/2026-w31/Vosinigr.png",
+        alt: "Weekly photo contest entry by Vosinigr",
+      },
+      {
+        author: "LucidBoi",
+        src: "photos/2026-w31/LucidBoi.jpg",
+        alt: "Weekly photo contest entry by LucidBoi",
+      },
+      {
+        author: "Keylor",
+        src: "photos/2026-w31/Keylor.png",
+        alt: "Weekly photo contest entry by Keylor",
+      },
+      {
+        author: "DogQuixote",
+        src: "photos/2026-w31/DogQuixote.jpg",
+        alt: "Weekly photo contest entry by DogQuixote",
+      }
+    ],
   },
   {
     id: "2026-w32",
