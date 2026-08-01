@@ -1293,6 +1293,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 30",
     dateRange: "19th - 26th July 2026",
     theme: "TBD",
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Nyek",
+            src: "photos/2026-w30/Nyek.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         author: "Gwap",
@@ -1323,7 +1334,49 @@ export const weeks: WeekEntry[] = [
         author: "Keylor",
         src: "photos/2026-w30/Keylor.png",
         alt: "Weekly photo contest entry by Keylor",
-      }
+      },
     ],
+  },
+  {
+    id: "2026-w31",
+    label: "Week 31",
+    dateRange: "26th July - 2nd August 2026",
+    theme: "TBD",
+    photos: [],
+  },
+  {
+    id: "2026-w32",
+    label: "Week 32",
+    dateRange: "2nd - 9th August 2026",
+    theme: "TBD",
+    photos: [],
+  },
+  {
+    id: "2026-w33",
+    label: "Week 33",
+    dateRange: "9th - 16th August 2026",
+    theme: "TBD",
+    photos: [],
+  },
+  {
+    id: "2026-w34",
+    label: "Week 34",
+    dateRange: "16th - 23rd August 2026",
+    theme: "TBD",
+    photos: [],
+  },
+  {
+    id: "2026-w35",
+    label: "Week 35",
+    dateRange: "23rd - 30th August 2026",
+    theme: "TBD",
+    photos: [],
+  },
+  {
+    id: "2026-w36",
+    label: "Week 36",
+    dateRange: "30th August - 6th September 2026",
+    theme: "TBD",
+    photos: [],
   },
 ];
