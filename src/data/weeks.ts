@@ -1342,6 +1342,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 31",
     dateRange: "26th July - 2nd August 2026",
     theme: "TBD",
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "DogQuixote",
+            src: "photos/2026-w31/DogQuixote.jpg",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         author: "Calix",
