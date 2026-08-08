@@ -1367,7 +1367,7 @@ export const weeks: WeekEntry[] = [
         author: "DogQuixote",
         src: "photos/2026-w31/DogQuixote.jpg",
         alt: "Weekly photo contest entry by DogQuixote",
-      }
+      },
     ],
   },
   {
@@ -1375,7 +1375,38 @@ export const weeks: WeekEntry[] = [
     label: "Week 32",
     dateRange: "2nd - 9th August 2026",
     theme: "TBD",
-    photos: [],
+    photos: [
+      {
+        author: "DogQuixote",
+        src: "photos/2026-w32/DogQuixote.jpg",
+        alt: "Weekly photo contest entry by DogQuixote",
+      },
+      {
+        author: "G'fudi",
+        src: "photos/2026-w32/G’fudi.png",
+        alt: "Weekly photo contest entry by Gfudi",
+      },
+      {
+        author: "Gwap",
+        src: "photos/2026-w32/Gwap.png",
+        alt: "Weekly photo contest entry by Gwap",
+      },
+      {
+        author: "Keylor",
+        src: "photos/2026-w32/Keylor.png",
+        alt: "Weekly photo contest entry by Keylor",
+      },
+      {
+        author: "Nyek",
+        src: "photos/2026-w32/Nyek.png",
+        alt: "Weekly photo contest entry by Nyek",
+      },
+      {
+        author: "Tagazake",
+        src: "photos/2026-w32/Tagazake.jpg",
+        alt: "Weekly photo contest entry by Tagazake",
+      },
+    ],
   },
   {
     id: "2026-w33",
