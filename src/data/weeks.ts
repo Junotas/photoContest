@@ -1436,7 +1436,38 @@ export const weeks: WeekEntry[] = [
     label: "Week 33",
     dateRange: "9th - 16th August 2026",
     theme: "TBD",
-    photos: [],
+    photos: [
+      {
+        author: "DogQuixote",
+        src: "photos/2026-w33/DogQuixote.jpg",
+        alt: "Weekly photo contest entry by DogQuixote",
+      },
+      {
+        author: "Calix",
+        src: "photos/2026-w33/Calix.png",
+        alt: "Weekly photo contest entry by Calix",
+      },
+      {
+        author: "Vosinigr",
+        src: "photos/2026-w33/Vosinigr.png",
+        alt: "Weekly photo contest entry by Vosinigr",
+      },
+      {
+        author: "plugNplay",
+        src: "photos/2026-w33/plugNplay.jpg",
+        alt: "Weekly photo contest entry by plugNplay",
+      },
+      {
+        author: "Thomas",
+        src: "photos/2026-w33/Thomas.jpg",
+        alt: "Weekly photo contest entry by Thomas",
+      },
+      {
+        author: "G'fudi",
+        src: "photos/2026-w33/G’fudi.png",
+        alt: "Weekly photo contest entry by G'fudi",
+      },
+    ],
   },
   {
     id: "2026-w34",
