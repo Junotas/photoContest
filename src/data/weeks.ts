@@ -1436,6 +1436,18 @@ export const weeks: WeekEntry[] = [
     label: "Week 33",
     dateRange: "9th - 16th August 2026",
     theme: "TBD",
+     placements
+: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "G'fudi",
+            src: "photos/2026-w33/G’fudi.png",
+          },  
+        ],
+      },
+    ],
     photos: [
       {
         author: "DogQuixote",
