@@ -1535,6 +1535,11 @@ export const weeks: WeekEntry[] = [
     theme: "TBD",
     photos: [
       {
+        author: "Texugo",
+        src: "photos/2026-w35/Texugo.png",
+        alt: "Weekly photo contest entry by Texugo",
+      },
+      {
         author: "calix",
         src: "photos/2026-w35/calix.png",
         alt: "Weekly photo contest entry by calix",
