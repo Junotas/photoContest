@@ -1533,7 +1533,13 @@ export const weeks: WeekEntry[] = [
     label: "Week 35",
     dateRange: "23rd - 30th August 2026",
     theme: "TBD",
-    photos: [],
+    photos: [
+      {
+        author: "calix",
+        src: "photos/2026-w35/calix.png",
+        alt: "Weekly photo contest entry by calix",
+      },
+    ],
   },
   {
     id: "2026-w36",
