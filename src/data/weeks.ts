@@ -1576,7 +1576,13 @@ export const weeks: WeekEntry[] = [
     label: "Week 36",
     dateRange: "30th August - 6th September 2026",
     theme: "TBD",
-    photos: [],
+    photos: [
+      {
+        author: "Mitrix",
+        src: "photos/2026-w36/Mitrix.png",
+        alt: "Weekly photo contest entry by Mitrix",
+      },
+    ],
   },
 
   {
