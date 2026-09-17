@@ -1533,6 +1533,29 @@ export const weeks: WeekEntry[] = [
     label: "Week 35",
     dateRange: "23rd - 30th August 2026",
     theme: "TBD",
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "KeylorGonzalez",
+            src: "photos/2026-w35/KeylorGonzalez.png",
+          },
+          {
+            author: "Gfudi",
+            src: "photos/2026-w35/Gfudi.png",
+          },
+          {
+            author: "ScrapperBee",
+            src: "photos/2026-w35/ScrapperBee.png",
+          },
+          {
+            author: "Texugo",
+            src: "photos/2026-w35/Texugo.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         author: "Gfudi",
@@ -1576,6 +1599,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 36",
     dateRange: "30th August - 6th September 2026",
     theme: "TBD",
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Mitrix",
+            src: "photos/2026-w36/Mitrix.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         author: "Gfudi",
@@ -1620,6 +1654,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 37",
     dateRange: "6th - 13th September 2026",
     theme: "TBD",
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Vosinigr",
+            src: "photos/2026-w37/Vosinigr.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         author: "GabrielEBV",
