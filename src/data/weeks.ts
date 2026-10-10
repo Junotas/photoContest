@@ -1705,6 +1705,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 39",
     dateRange: "20th - 27th September 2026",
     theme: "TBD",
+     placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Gfudi",
+            src: "photos/2026-w39/Gfudi.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         author: "Gfudi",
@@ -1728,6 +1739,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 40",
     dateRange: "27th September - 4th October 2026",
     theme: "TBD",
+     placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "KeylorGonzalez",
+            src: "photos/2026-w40/KeylorGonzalez.png",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         author: "Albertalberto",
