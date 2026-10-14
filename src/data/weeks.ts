@@ -1778,6 +1778,17 @@ export const weeks: WeekEntry[] = [
     label: "Week 41",
     dateRange: "4th - 11th October 2026",
     theme: "TBD",
+    placements: [
+      {
+        place: 1,
+        entries: [
+          {
+            author: "Albertalberto",
+            src: "photos/2026-w41/Albertalberto.jpg",
+          },
+        ],
+      },
+    ],
     photos: [
       {
         author: "Albertalberto",
