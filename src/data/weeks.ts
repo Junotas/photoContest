@@ -1811,7 +1811,13 @@ export const weeks: WeekEntry[] = [
     label: "Week 42",
     dateRange: "11th - 18th October 2026",
     theme: "TBD",
-    photos: [],
+    photos: [
+      {
+        author: "Vosinigr",
+        src: "photos/2026-w42/Vosinigr.png",
+        alt: "Weekly photo contest entry by Vosinigr",
+      },
+    ],
   },
   {
     id: "2026-w43",
