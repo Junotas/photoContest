@@ -1824,6 +1824,26 @@ export const weeks: WeekEntry[] = [
     theme: "TBD",
     photos: [
       {
+        author: "Gfudi",
+        src: "photos/2026-w42/Gfudi.png",
+        alt: "Weekly photo contest entry by Gfudi",
+      },
+      {
+        author: "JoeySquid",
+        src: "photos/2026-w42/JoeySquid.jpg",
+        alt: "Weekly photo contest entry by JoeySquid",
+      },
+      {
+        author: "KeylorGonzalez",
+        src: "photos/2026-w42/KeylorGonzalez.png",
+        alt: "Weekly photo contest entry by KeylorGonzalez",
+      },
+      {
+        author: "Travars",
+        src: "photos/2026-w42/Travars.jpg",
+        alt: "Weekly photo contest entry by Travars",
+      },
+      {
         author: "Vosinigr",
         src: "photos/2026-w42/Vosinigr.png",
         alt: "Weekly photo contest entry by Vosinigr",
@@ -1835,7 +1855,13 @@ export const weeks: WeekEntry[] = [
     label: "Week 43",
     dateRange: "18th - 25th October 2026",
     theme: "TBD",
-    photos: [],
+    photos: [
+      {
+        author: "Albertalberto",
+        src: "photos/2026-w43/Albertalberto.png",
+        alt: "Weekly photo contest entry by Albertalberto",
+      },
+    ],
   },
   {
     id: "2026-w44",
