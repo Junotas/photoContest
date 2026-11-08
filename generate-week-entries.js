@@ -4,7 +4,7 @@ run node generate-week-entries.js 202x-wxx to generate the json entries for that
 
 
 For example: 
-node generate-week-entries.js 2026-w34  
+node generate-week-entries.js 2026-w34    
  *
  */
 
