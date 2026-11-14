@@ -1939,7 +1939,33 @@ export const weeks: WeekEntry[] = [
     label: "Week 46",
     dateRange: "8th - 15th November 2026",
     theme: "TBD",
-    photos: [],
+    photos: [
+      {
+        author: "Crimson",
+        src: "photos/2026-w46/Crimson.JPG",
+        alt: "Weekly photo contest entry by Crimson",
+      },
+      {
+        author: "Nyek",
+        src: "photos/2026-w46/Nyek.png",
+        alt: "Weekly photo contest entry by Nyek",
+      },
+      {
+        author: "Travars",
+        src: "photos/2026-w46/Travars.jpg",
+        alt: "Weekly photo contest entry by Travars",
+      },
+      {
+        author: "Vosinigr",
+        src: "photos/2026-w46/Vosinigr.png",
+        alt: "Weekly photo contest entry by Vosinigr",
+      },
+      {
+        author: "calix",
+        src: "photos/2026-w46/calix.png",
+        alt: "Weekly photo contest entry by calix",
+      },
+    ],
   },
   {
     id: "2026-w47",
